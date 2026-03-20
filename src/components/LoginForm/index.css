@@ -1,0 +1,78 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1e293b;
+}
+
+.login-website-logo-img {
+  width: 180px;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  background-color: #0f172a;
+  border-radius: 16px;
+  padding: 48px 40px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.input-label {
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.username-input-field,
+.password-input-field {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: #f1f5f9;
+  font-size: 16px;
+  padding: 12px 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.username-input-field:focus,
+.password-input-field:focus {
+  border-color: #4f46e5;
+}
+
+.login-button {
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #4338ca;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: center;
+}

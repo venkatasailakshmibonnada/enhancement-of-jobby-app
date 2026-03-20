@@ -1,0 +1,46 @@
+.filters-group-container {
+  padding: 16px 24px;
+}
+
+.filter-heading {
+  color: #f1f5f9;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.employment-types-list,
+.salary-ranges-list,
+.locations-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.checkbox-input,
+.radio-input {
+  width: 18px;
+  height: 18px;
+  accent-color: #4f46e5;
+  cursor: pointer;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.filter-label {
+  color: #94a3b8;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filter-divider {
+  border: none;
+  border-top: 1px solid #334155;
+  margin: 20px 0;
+}

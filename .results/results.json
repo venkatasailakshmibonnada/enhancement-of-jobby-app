@@ -1,0 +1,746 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_51",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of at least two HTML list items, jobs list received from the response and the provided employmentTypesList, salaryRangesList should be rendered using a unique key as a prop for each employment type item, salary range item and job item respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_52",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/jobs\" is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_53",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/jobs\" is provided in the URL path by an authenticated user, then the page should be navigated to the Jobs Route and should consist of an HTML main heading element with text content as \"Type of Employment\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_54",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML image element with alt attribute value as \"website logo\" and src as given website logo image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_55",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML input element with type attribute value as \"search\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_56",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML button element with data-testid attribute value as \"searchButton\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_57",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML main heading element with text content as \"Type of Employment\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_58",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of HTML checkboxes with label text as the values of the key \"label\" from employmentTypesList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_59",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML main heading element with text content as \"Salary Range\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_60",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of HTML radio buttons and label text as the values of the key \"label\" from salaryRangesList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_61",
+      "evaluation_result": "CORRECT",
+      "title": "When the Jobs Route is opened, it should initially consist of HTML container elements with data-testid attribute value as \"loader\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_62",
+      "evaluation_result": "CORRECT",
+      "title": "When the Jobs Route is opened, an HTTP GET request should be made to the given Profile API URL to display the profile details",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_63",
+      "evaluation_result": "CORRECT",
+      "title": "When the Jobs Route is opened, an HTTP GET request should be made to the given Jobs API URL to display the list of jobs",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_64",
+      "evaluation_result": "CORRECT",
+      "title": "When the Jobs Route is opened, an HTTP GET request should be made to the given Jobs API URL with all the query parameters and their initial values as empty strings",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_65",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of at least four HTML unordered list elements to display nav items, jobs received from the response, employmentTypes and salaryRanges",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_66",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML image element with alt attribute value as \"profile\" and src as the value of key \"profile_image_url\" received from the profile response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_67",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML main heading element with text content as the values of the key \"name\" received from the profile response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_68",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of an HTML paragraph element with text content as the values of the key \"short_bio\" received from the profile response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_69",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML image elements with alt attribute value as \"company logo\" and src as the values of key \"company_logo_url\" received from the jobs response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_70",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML main heading elements with text content as the values of the key \"title\" received from the jobs response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_71",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the value of the key \"rating\" received from the jobs response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_72",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \"employment_type\" received from the jobs response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_73",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML main heading elements with text content as the \"Description\" based on the received jobs response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_74",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET requests in the Jobs Route are successful, then the page should consist of HTML paragraph elements with text content as the values of the key \"job_description\" received from the jobs response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_75",
+      "evaluation_result": "CORRECT",
+      "title": "When a value is provided in the HTML input element for search and search icon button is clicked, an HTTP GET request should be made with the value provided in the search input element as the value to query parameter \"search\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_76",
+      "evaluation_result": "CORRECT",
+      "title": "When employment types are selected, an HTTP GET request should be made with the ids of the employment types as a single string separated by \",\" as value to query parameter \"employment_type\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_77",
+      "evaluation_result": "CORRECT",
+      "title": "When a salary range is clicked, an HTTP GET request should be made with the id of the salaryRange as value to query parameter \"minimum_package\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_78",
+      "evaluation_result": "CORRECT",
+      "title": "When all filters are used, an HTTP GET request should be made to jobsApiUrl with all the query parameters and their values",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_79",
+      "evaluation_result": "CORRECT",
+      "title": "When a Job Item is clicked in Jobs Route, then the page should be navigated to the Job Item Details route with \"/jobs/:id\" as the URL path",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_80",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of the HTML image element with alt attribute value as \"no jobs\" and src as the given no jobs view image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_81",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of an HTML main heading element with text content as \"No Jobs Found\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_82",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route returns the jobs list as empty, then the page should consist of an HTML paragraph element with text content as \"We could not find any jobs. Try other filters\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_83",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Profile API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML button element with text content as the \"Retry\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_84",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML image element with alt as \"failure view\" and src as the given failure view image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_85",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML main heading element with text content as \"Oops! Something Went Wrong\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_86",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML paragraph element with text content as \"We cannot seem to find the page you are looking for\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_87",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful, then the page should consist of the HTML button element with text content as the \"Retry\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_88",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Profile API URL in the Jobs Route is unsuccessful and the \"Retry\" button is clicked, then an HTTP GET request should be made to the given Profile API URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_89",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to the given Jobs API URL in the Jobs Route is unsuccessful and the \"Retry\" button is clicked, then an HTTP GET request should be made to the given Jobs API URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_90",
+      "evaluation_result": "CORRECT",
+      "title": "When the website logo in the Header is clicked, then the page should be navigated to Home Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_91",
+      "evaluation_result": "CORRECT",
+      "title": "When the Home link in the Header is clicked, then the page should be navigated to Home Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_92",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML input element with label text as \"Hyderabad\" and type attribute value as \"checkbox\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_93",
+      "evaluation_result": "CORRECT",
+      "title": "Jobs Route should consist of an HTML input element with label text as \"Delhi\" and type attribute value as \"checkbox\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_94",
+      "evaluation_result": "CORRECT",
+      "title": "When the checkbox input element with the label text as \"Hyderabad\" is checked, then the checkbox input element should be checked",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_95",
+      "evaluation_result": "CORRECT",
+      "title": "When the checkbox input element with the label text as \"Delhi\" is checked, then the checkbox input element should be checked",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_96",
+      "evaluation_result": "CORRECT",
+      "title": "When the checkbox input element with the label text \"Hyderabad\" is checked, the list of jobs with the location \"Hyderabad\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_97",
+      "evaluation_result": "CORRECT",
+      "title": "When the checkbox input element with the label text \"Delhi\" is checked, the list of jobs with the location \"Delhi\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_98",
+      "evaluation_result": "CORRECT",
+      "title": "When the checkbox input elements with the label text \"Delhi\" and \"Hyderabad\" are checked, the list of jobs with the locations \"Delhi\" and \"Hyderabad\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least two HTML list items and the skills list and similar jobs list received from the response should be rendered using a unique key as a prop to display each skill and similar job respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/jobs/:id\" is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "Job Item Details Route should consist of an HTML image element with alt attribute value as \"website logo\" and src as the given website logo image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "When the Job Item Details Route is opened, it should initially consist of an HTML container element with data-testid attribute value as \"loader\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "When the Job Item Details Route is opened, an HTTP GET request should be made to the given Job Details API URL with the job id as the path parameter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with alt attribute value as \"job details company logo\" and src as the value of key \"company_logo_url\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with text content as the value of the key \"title\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"rating\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"location\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"employment_type\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"package_per_annum\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least four HTML main heading elements with text content as \"Description\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_31",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"job_description\" in job_details received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_32",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML anchor element with href attribute value of the key \"company_website_url\" and text content as \"Visit\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_33",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \"Skills\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_34",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of at least three HTML unordered list elements to display nav item, skills and similar jobs received from the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_35",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML image elements with alt attribute value as the values of the key \"name\" and src as the values of the key \"image_url\" in the \"skills\" list received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_36",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \"Life at Company\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_37",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"description\" in \"life_at_company\" from job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_38",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML image element with alt attribute value as \"life at company\" and src as the value of the key \"image_url\" in \"life_at_company\" from job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_39",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of an HTML main heading element with text content as \"Similar Jobs\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_40",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML image elements with alt attribute value as \"similar job company logo\" and src as the values of the key \"company_logo_url\" in similar_jobs received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_41",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML main heading elements with text content as the values of the key \"title\" in similar_jobs received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_42",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the values of the key \"rating\" in similar_jobs received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_43",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \"location\" in similar_jobs received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_44",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \"employment_type\" in similar_jobs received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_45",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is successful, then the page should consist of HTML paragraph elements with text content as the value of the key \"job_description\" in similar_jobs received from the job details response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_46",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \"failure view\" and src as the given failure view image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_47",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML main heading element with text content as \"Oops! Something Went Wrong\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_48",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \"We cannot seem to find the page you are looking for\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_49",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is unsuccessful, then the page should consist of an HTML button element with text content as \"Retry\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_50",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Job Item Details Route is unsuccessful and the \"Retry\" button is clicked, then an HTTP GET request should be made to the given Job Details API URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_99",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_100",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \"Find The Job That Fits Your Life\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_101",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML form element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_102",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML image element with alt attribute \"website logo\" and src as the given website logo image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_103",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"USERNAME\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_104",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"USERNAME\" and type attribute value as \"text\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_105",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"PASSWORD\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_106",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"PASSWORD\" and type attribute value as \"password\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_107",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML button element with text content as \"Login\" and type attribute value as \"submit\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_108",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"USERNAME\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_109",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"PASSWORD\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_110",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to the given Login API URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_111",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to the given Login API URL with request object containing the keys \"username\" and \"password\" with the values provided respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_112",
+      "evaluation_result": "CORRECT",
+      "title": "When username and password are empty and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_113",
+      "evaluation_result": "CORRECT",
+      "title": "when a non-empty password is provided and the Login button is clicked with an empty username, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_114",
+      "evaluation_result": "CORRECT",
+      "title": "when a non-empty username is provided and the Login button is clicked with an empty password, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_115",
+      "evaluation_result": "CORRECT",
+      "title": "when invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_116",
+      "evaluation_result": "CORRECT",
+      "title": "when an invalid username and valid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as an error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_117",
+      "evaluation_result": "CORRECT",
+      "title": "when a valid username and an invalid password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as error message received from the response and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_118",
+      "evaluation_result": "CORRECT",
+      "title": "When valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \"jwt_token\" string as the first argument, JWT token value as the second argument, and expiry days as the third argument",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_119",
+      "evaluation_result": "INCORRECT",
+      "title": "When valid username and password are provided and the Login button is clicked, then the history.replace() method should be called with the argument \"/\"",
+      "errorMessages": [
+        "\nExpected: \"/\"\nNumber of calls: 0"
+      ]
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_120",
+      "evaluation_result": "CORRECT",
+      "title": "When valid username and password are provided and the login button is clicked, then the page should be navigated to the Home Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/\" is provided as the URL path by an unauthenticated user, then the page should be navigated to the Login Route and consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/\" is provided as the URL path by an authenticated user, then the page should be navigated to the Home Route and consist of an HTML main heading element with text content as \"Find The Job That Fits Your Life\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML image element with alt attribute value as \"website logo\" and src as the given website logo image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML image element with alt attribute value as \"website logo\" and src as the given website logo image URL is wrapped with Link from react-router-dom",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least one HTML unordered list element to display the list of nav items in the Header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of at least three HTML list elements to display the nav items in the Header",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of a Link from react-router-dom with text content as \"Home\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of a Link from react-router-dom with text content as \"Jobs\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML button element with text content as \"Logout\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML main heading element with text content as \"Find The Job That Fits Your Life\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML paragraph element with text content starting with \"Millions of people are searching for jobs\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML button element with text content as \"Find Jobs\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "Home Route should consist of an HTML button element with text content as \"Find Jobs\" is wrapped with Link from react-router-dom",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the Find Jobs button in the Home Route is clicked, then the page should be navigated to Jobs Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When the Jobs link in the Header is clicked, then the page should be navigated to Jobs Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the Logout button in the Header is clicked, then the Cookies.remove() method should be called with the argument as \"jwt_token\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_17",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Logout button in the Header is clicked, the history.replace() method should be called with the argument as \"/login\"",
+      "errorMessages": [
+        "\nExpected: \"/login\"\nNumber of calls: 0"
+      ]
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "When the Logout button in the Header is clicked, then the page should be navigated to the Login Route",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_121",
+      "evaluation_result": "CORRECT",
+      "title": "When a random path is provided as the URL path, then the page should be navigated to the Not Found Route and should consist of an HTML image element with alt attribute value as \"not found\" and src as the given not found image URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_122",
+      "evaluation_result": "CORRECT",
+      "title": "When a random path is provided as the URL path, then the page should consist of an HTML main heading element with text content as \"Page Not Found\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP0V3L7_TEST_123",
+      "evaluation_result": "CORRECT",
+      "title": "When a random path is provided as the URL path, then the page should consist of an HTML paragraph element with text content as \"We are sorry, the page you requested could not be found\"",
+      "errorMessages": []
+    }
+  ]
+}
