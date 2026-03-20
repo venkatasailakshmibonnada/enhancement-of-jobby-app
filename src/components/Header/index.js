@@ -7,7 +7,9 @@ const Header = props => {
 
   const onClickLogout = () => {
     Cookies.remove('jwt_token')
-    history.replace('/login')
+    if (history !== undefined) {
+      history.replace('/login')
+    }
   }
 
   return (
