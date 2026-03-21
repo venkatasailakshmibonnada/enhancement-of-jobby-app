@@ -1,4 +1,4 @@
-import {Link, withRouter} from 'react-router-dom' // ← add withRouter
+import {Link, withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import './index.css'
 
@@ -7,7 +7,7 @@ const Header = props => {
 
   const onClickLogout = () => {
     Cookies.remove('jwt_token')
-    history.replace('/login') // ← remove the undefined check, withRouter guarantees history
+    history.replace('/login')
   }
 
   return (
@@ -46,4 +46,4 @@ const Header = props => {
   )
 }
 
-export default withRouter(Header) // ← wrap with withRouter
+export default withRouter(Header)
