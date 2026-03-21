@@ -1,4 +1,4 @@
-import {Link, withRouter} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import './index.css'
 
@@ -46,4 +46,4 @@ const Header = props => {
   )
 }
 
-export default withRouter(Header)
+export default Header
