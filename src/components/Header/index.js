@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom' // ← add withRouter
 import Cookies from 'js-cookie'
 import './index.css'
 
@@ -7,32 +7,34 @@ const Header = props => {
 
   const onClickLogout = () => {
     Cookies.remove('jwt_token')
-    if (history !== undefined) {
-      history.replace('/login')
-    }
+    history.replace('/login') // ← remove the undefined check, withRouter guarantees history
   }
 
   return (
-    <nav className="nav-header">
-      <div className="nav-content">
-        <Link to="/">
+    <nav className='nav-header'>
+      <div className='nav-content'>
+        <Link to='/'>
           <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
-            className="website-logo"
+            src='https://assets.ccbp.in/frontend/react-js/logo-img.png'
+            alt='website logo'
+            className='website-logo'
           />
         </Link>
-        <ul className="nav-menu">
-          <li className="nav-menu-item">
-            <Link to="/" className="nav-link">Home</Link>
+        <ul className='nav-menu'>
+          <li className='nav-menu-item'>
+            <Link to='/' className='nav-link'>
+              Home
+            </Link>
           </li>
-          <li className="nav-menu-item">
-            <Link to="/jobs" className="nav-link">Jobs</Link>
+          <li className='nav-menu-item'>
+            <Link to='/jobs' className='nav-link'>
+              Jobs
+            </Link>
           </li>
-          <li className="nav-menu-item">
+          <li className='nav-menu-item'>
             <button
-              type="button"
-              className="logout-desktop-btn"
+              type='button'
+              className='logout-desktop-btn'
               onClick={onClickLogout}
             >
               Logout
@@ -44,4 +46,4 @@ const Header = props => {
   )
 }
 
-export default Header
+export default withRouter(Header) // ← wrap with withRouter
