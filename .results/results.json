@@ -602,11 +602,9 @@
     },
     {
       "test_case_id": "RJSCP0V3L7_TEST_119",
-      "evaluation_result": "INCORRECT",
+      "evaluation_result": "CORRECT",
       "title": "When valid username and password are provided and the Login button is clicked, then the history.replace() method should be called with the argument \"/\"",
-      "errorMessages": [
-        "\nExpected: \"/\"\nNumber of calls: 0"
-      ]
+      "errorMessages": []
     },
     {
       "test_case_id": "RJSCP0V3L7_TEST_120",
@@ -712,11 +710,9 @@
     },
     {
       "test_case_id": "RJSCP0V3L7_TEST_17",
-      "evaluation_result": "INCORRECT",
+      "evaluation_result": "CORRECT",
       "title": "When the Logout button in the Header is clicked, the history.replace() method should be called with the argument as \"/login\"",
-      "errorMessages": [
-        "\nExpected: \"/login\"\nNumber of calls: 0"
-      ]
+      "errorMessages": []
     },
     {
       "test_case_id": "RJSCP0V3L7_TEST_18",
